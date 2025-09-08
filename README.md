@@ -34,11 +34,8 @@ DOM Manipulation
 
 document.getElementsByTagName("h1")[0].style.color = "#ff0000";
 
-
 ✅ Changes the first <h1> heading color to red.
-
 Event Handling (Click Example)
-
 document.body.addEventListener('click', function () {
     var myParent = document.getElementsByTagName("h1")[0]; 
     var myImage = document.createElement("img");
