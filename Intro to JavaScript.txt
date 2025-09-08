@@ -1,0 +1,21 @@
+1. In 1995 when Brendan Eich created JavaScript.Today, the language itself is still referred to as JavaScript,but recent versions are referenced by their ECMAScript version number,like ES5 or ES6.Even more recently, the standards body has transitionedto a year-based number to promote a more consistent release cycle.We now have ES2016,ES2017, and so on.
+2. For Windows COnsole - browser - inspct - ctrl + shift + i 
+3. console.log("hi shafin") the print "hi shafin"
+4. for (var i= 0; i< 10; i++){
+	console.log(i)}
+the print is 0 1 2 3 4 5 6 7 8 9 (this is call loop)
+5. What happened when you ran that line of code in the JavaScript console?
+ans - 	document.getElementsByTagName("h1")[0].style.color = "#ff0000";
+	The heading changed to red
+	
+6.  What happens when you run the code from above in the JavaScript console and then click on the page?
+	
+ANS  - 	 document.body.addEventListener('click', function () {
+     var myParent = document.getElementsByTagName("h1")[0]; 
+     var myImage = document.createElement("img");
+     myImage.src = 'https://thecatapi.com/api/images/get?format=src&type=gif';
+     myParent.appendChild(myImage);
+     myImage.style.marginLeft = "160px";
+});
+   
+ An image is added to the page.
